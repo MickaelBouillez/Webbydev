@@ -2,12 +2,13 @@ body {
   font-family: Comfortaa;
   margin: 0;
   position: relative;
-  background-image: url('texture.png');
+  background-image: url('https://raw.githubusercontent.com/MickaelBouillez/Webbydev/master/texture.png');
   background-size: 50%;
   background-attachment: fixed;
   background-blend-mode: overlay;
   background-color: hsla(199, 26%, 28%, 0.228);
 }
+
 
 .container {
   max-width: 1480px;
