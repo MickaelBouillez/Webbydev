@@ -1,7 +1,6 @@
 body {
   font-family: Comfortaa;
   margin: 0;
-  background-image: linear-gradient(to bottom, #b8cbd0 0%, #344d59 100%);
   position: relative;
   background-image: url('texture.png');
   background-size: 50%;
