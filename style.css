@@ -101,6 +101,10 @@ section {
   transition: width 0.2s ease;
 }
 
+li {
+  text-decoration: none;
+}
+
 .nav_logo:hover {
   width: 110px;
 }
