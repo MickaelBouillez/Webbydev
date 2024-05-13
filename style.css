@@ -470,7 +470,7 @@ footer {
   .services {
     width: 50%;
     flex-direction: column;
-    height: 550px;
+    height: 700px;
   }
 
   .services .logo {
