@@ -1,164 +1,250 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebbyDev</title>
+    <meta
+      name="description"
+      content="Portfolio de Mickael Bouillez. Découvrez mes services, projets et contactez-moi pour vos besoins en développement web."
+    />
+    <meta
+      name="keywords"
+      content="WebbyDev, Mickael Bouillez, création digitale, développement web, portfolio."
+    />
+    <meta name="author" content="Mickael Bouillez" />
+    <meta property="og:title" content="WebbyDev - Mickael Bouillez." />
+    <meta
+      property="og:description"
+      content="Portfolio de Mickael Bouillez. Découvrez mes services, projets et contactez-moi pour vos besoins en développement web."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://mickaelbouillez.github.io/Webbydev/"
+    />
+    <meta
+      property="og:image"
+      content="https://github.com/MickaelBouillez/Webbydev/blob/master/images/logo.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      name="google-site-verification"
+      content="Sjbfx2Kh3wxuv18m42NlAyL579PxxdeBKkPC2qE5L9g"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="loading.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WebbyDev</title>
-  <meta name="description"
-    content="Portfolio de Mickael Bouillez. Découvrez mes services, projets et contactez-moi pour vos besoins en développement web." />
-  <meta name="keywords"
-    content="WebbyDev, Mickael Bouillez, création digitale, développement web, portfolio." />
-  <meta name="author" content="Mickael Bouillez" />
-  <meta property="og:title" content="WebbyDev - Mickael Bouillez." />
-  <meta property="og:description"
-    content="Portfolio de Mickael Bouillez. Découvrez mes services, projets et contactez-moi pour vos besoins en développement web." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://mickaelbouillez.github.io/Webbydev/" />
-  <meta property="og:image" content="https://github.com/MickaelBouillez/Webbydev/blob/master/images/logo.png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta name="google-site-verification" content="Sjbfx2Kh3wxuv18m42NlAyL579PxxdeBKkPC2qE5L9g" />
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <link rel="stylesheet" type="text/css" href="loading.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet" />
-</head>
-
-<body>
-  <div class="loader-wrapper">
-    <div class="loader"></div>
-  </div>
-  <div class="container" id="haut">
-    <header id="logo-container">
-      <a href="index.html"><img id="logo" src="images/logo.png" alt="Logo" class="logo" /></a>
-    </header>
-    <nav>
-      <ul>
-        <a href="#haut"><img src="images/logo.png" alt="logo_nav" class="nav_logo" title="Accueil" /></a><a
-          href="#who"><img src="images/presentation_icon.png" alt="Presentation" class="upper"
-            title="Qui suis-je ?" /></a>
-        <a href="#Projets"><img src="images/projects_icon.png" alt="project" class="upper" title="Projets" /></a>
-
-        <a href="https://github.com/MickaelBouillez" target="_blank"><img src="images/github_icon.png" alt="Github"
-            class="upper" title="Github" /></a>
-        <a href="mailto:contact.webbydev@gmail.com"><img src="images/email_icon.png" alt="Email" class="upper"
-            title="Contact" /></a>
-        <a href="#bas"><img src="images/arrow_down.png" alt="logo_nav" class="arrow_down" title="Bas de page" /></a>
-      </ul>
-    </nav>
-    <main>
-      <section class="who_block" id="who">
-        <h1>- Qui suis-je ? -</h1>
-        <div class="who_container">
-          <img src="images/quisommenous.png" alt="Qui sommes-nous?" class="who_img" />
-          <p class="who_text">
-            Je suis Mickael Bouillez, actuellement en formation d'intégrateur
-            Web. Passionné par la création digitale, j'ai travaillé sur divers
-            projets où j'ai pu développer mes compétences en conception et en
-            développement web. Vous trouverez ci-dessous quelques exemples de
-            mes réalisations. Je suis convaincu que mon engagement et ma
-            passion font de moi un développeur compétent, prêt à relever de
-            nouveaux défis. N'hésitez pas à me contacter pour en savoir plus
-            sur mes compétences et mes projets.
-          </p>
-        </div>
-      </section>
-      <div class="compétences">
-        <h1>- Mes Services -</h1>
-        <section class="services_block">
-          <div class="services">
-            <div class="service">
-              <div class="icon_contain"><img src="images/design.png" alt="Design" class="icon"></div>
-              <div class="content">
-                <p>Design</p>
-              </div>
-            </div>
-            <div class="service">
-              <div class="icon_contain"><img src="images/developpement.png" alt="Developpement" class="icon"></div>
-              <div class="content">
-                <p>Développement</p>
-              </div>
-            </div>
-            <div class="service">
-              <div class="icon_contain"><img src="images/referencement.png" alt="Référencement" class="icon"></div>
-              <div class="content">
-                <p>Référencement</p>
-              </div>
-            </div>
+  <body>
+    <div class="loader-wrapper">
+      <div class="loader"></div>
+    </div>
+    <div class="container" id="haut">
+      <header id="logo-container">
+        <a href="index.html"
+          ><img id="logo" src="images/logo.png" alt="Logo" class="logo"
+        /></a>
+      </header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#haut"
+              ><img
+                src="images/logo.png"
+                alt="logo_nav"
+                class="nav_logo"
+                title="Accueil"
+            /></a>
+          </li>
+          <li>
+            <a href="#who"
+              ><img
+                src="images/presentation_icon.png"
+                alt="Presentation"
+                class="upper"
+                title="Qui suis-je ?"
+            /></a>
+          </li>
+          <li>
+            <a href="#Projets"
+              ><img
+                src="images/projects_icon.png"
+                alt="project"
+                class="upper"
+                title="Projets"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/MickaelBouillez" target="_blank"
+              ><img
+                src="images/github_icon.png"
+                alt="Github"
+                class="upper"
+                title="Github"
+            /></a>
+          </li>
+          <li>
+            <a href="mailto:contact.webbydev@gmail.com"
+              ><img
+                src="images/email_icon.png"
+                alt="Email"
+                class="upper"
+                title="Contact"
+            /></a>
+          </li>
+          <li>
+            <a href="#bas"
+              ><img
+                src="images/arrow_down.png"
+                alt="logo_nav"
+                class="arrow_down"
+                title="Bas de page"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <section class="who_block" id="who">
+          <h1>- Qui suis-je ? -</h1>
+          <div class="who_container">
+            <img
+              src="images/quisommenous.png"
+              alt="Qui sommes-nous?"
+              class="who_img"
+            />
+            <p class="who_text">
+              Je suis Mickael Bouillez, actuellement en formation d'intégrateur
+              Web. Passionné par la création digitale, j'ai travaillé sur divers
+              projets où j'ai pu développer mes compétences en conception et en
+              développement web. Vous trouverez ci-dessous quelques exemples de
+              mes réalisations. Je suis convaincu que mon engagement et ma
+              passion font de moi un développeur compétent, prêt à relever de
+              nouveaux défis. N'hésitez pas à me contacter pour en savoir plus
+              sur mes compétences et mes projets.
+            </p>
           </div>
         </section>
-      </div>
+        <div class="compétences">
+          <h1>- Mes Services -</h1>
+          <section class="services_block">
+            <div class="services">
+              <div class="service">
+                <div class="icon_contain">
+                  <img src="images/design.png" alt="Design" class="icon" />
+                </div>
+                <div class="content">
+                  <p>Design</p>
+                </div>
+              </div>
+              <div class="service">
+                <div class="icon_contain">
+                  <img
+                    src="images/developpement.png"
+                    alt="Developpement"
+                    class="icon"
+                  />
+                </div>
+                <div class="content">
+                  <p>Développement</p>
+                </div>
+              </div>
+              <div class="service">
+                <div class="icon_contain">
+                  <img
+                    src="images/referencement.png"
+                    alt="Référencement"
+                    class="icon"
+                  />
+                </div>
+                <div class="content">
+                  <p>Référencement</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
 
-      <div class="Projets" id="Projets">
-        <h1>- Mes Projets -</h1>
-        <section class="block">
-          <article class="Projet">
-            <a href="https://mickaelbouillez.github.io/Booki/" target="_blank"><img src="images/booki.png"
-                alt="Booki" />
-              <p>
-                Conception d'un site web pour une agence de voyages en HTML et
-                CSS. Pour en voir plus cliquer !
-              </p>
-            </a>
-          </article>
-          <article class="Projet">
-            <a href="https://mickaelbouillez.github.io/oh_my_food/" target="_blank"><img src="images/ohmyfood.png"
-                alt="Ohmyfood" />
-              <p>
-                Développement en Mobile First d'un site qui répertorie les
-                menus de restaurant gastronomique en HTML et SASS. Pour en
-                voir plus cliquer !
-              </p>
-            </a>
-          </article>
-          <article class="Projet">
-            <a href="https://mickaelbouillez.github.io/nina_carducci/" target="_blank"><img
-                src="images/nina_carducci.png" alt="nina_carducci" />
-              <p>
-                Optimisation du référencement SEO d'un site portfolio d'une photographe. Pour en
-                voir plus cliquer !
-              </p>
-            </a>
-          </article>
-        </section>
-      </div>
-    </main>
-  </div>
-  <footer id="bas">
-    <div class="footer_container">
-      <h1>- Nous contacter -</h1>
-      <div class="contact_container">
-        <div class="contact_mess">
-          <p>
-            Vous êtes en quête de solutions pour vos besoins en développement
-            web ? Ne cherchez pas plus loin. Chez Webbydev, nous sommes là
-            pour répondre à vos attentes. Forts d'une expertise solide nous
-            nous engageons à faire de vos idées une réalité en ligne.
-            Contactez-nous dès maintenant pour discuter de vos projets et
-            découvrir comment nous pouvons vous aider à atteindre vos
-            objectifs sur le web.
-          </p>
+        <div class="Projets" id="Projets">
+          <h1>- Mes Projets -</h1>
+          <section class="block">
+            <article class="Projet">
+              <a href="https://mickaelbouillez.github.io/Booki/" target="_blank"
+                ><img src="images/booki.png" alt="Booki" />
+                <p>
+                  Conception d'un site web pour une agence de voyages en HTML et
+                  CSS. Pour en voir plus cliquer !
+                </p>
+              </a>
+            </article>
+            <article class="Projet">
+              <a
+                href="https://mickaelbouillez.github.io/oh_my_food/"
+                target="_blank"
+                ><img src="images/ohmyfood.png" alt="Ohmyfood" />
+                <p>
+                  Développement en Mobile First d'un site qui répertorie les
+                  menus de restaurant gastronomique en HTML et SASS. Pour en
+                  voir plus cliquer !
+                </p>
+              </a>
+            </article>
+            <article class="Projet">
+              <a
+                href="https://mickaelbouillez.github.io/nina_carducci/"
+                target="_blank"
+                ><img src="images/nina_carducci.png" alt="nina_carducci" />
+                <p>
+                  Optimisation du référencement SEO d'un site portfolio d'une
+                  photographe. Pour en voir plus cliquer !
+                </p>
+              </a>
+            </article>
+          </section>
         </div>
-        <div class="contact">
-          <p>Disponible 7j/7</p>
-          <p>07 83 63 53 38</p>
-          <p>
-            <a href="mailto:contact.webbydev@gmail.com">
-              contact.webbydev@gmail.com</a </p>
-        </div>
-      </div>
-      <div class="copyright">
-        <a href="Mentions_Légale.html">
-          <p>Mentions Légales</p>
-        </a>
-        <p>Copyrights ©2024. Webbydev</p>
-      </div>
+      </main>
     </div>
-  </footer>
-  <script src="scroll.js"></script>
-  <script src="loading.js"></script>
-</body>
-
+    <footer id="bas">
+      <div class="footer_container">
+        <h1>- Nous contacter -</h1>
+        <div class="contact_container">
+          <div class="contact_mess">
+            <p>
+              Vous êtes en quête de solutions pour vos besoins en développement
+              web ? Ne cherchez pas plus loin. Chez Webbydev, nous sommes là
+              pour répondre à vos attentes. Forts d'une expertise solide nous
+              nous engageons à faire de vos idées une réalité en ligne.
+              Contactez-nous dès maintenant pour discuter de vos projets et
+              découvrir comment nous pouvons vous aider à atteindre vos
+              objectifs sur le web.
+            </p>
+          </div>
+          <div class="contact">
+            <p>Disponible 7j/7</p>
+            <p>07 83 63 53 38</p>
+            <p>
+              <a href="mailto:contact.webbydev@gmail.com">
+                contact.webbydev@gmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="copyright">
+          <a href="Mentions_Légale.html">
+            <p>Mentions Légales</p>
+          </a>
+          <p>Copyrights ©2024. Webbydev</p>
+        </div>
+      </div>
+    </footer>
+    <script src="scroll.js"></script>
+    <script src="loading.js"></script>
+  </body>
 </html>

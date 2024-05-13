@@ -227,7 +227,7 @@ a {
   display: flex;
   color: #ededed;
   font-size: 30px;
-  text-shadow: #000000;
+  text-shadow: black;
   text-align: center;
   justify-content: space-around;
   text-shadow: 8px 2px 5px rgb(0, 0, 0);
